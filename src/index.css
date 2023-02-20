@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #272727;
+  color: white !important;
+}
+
+.category-btn:hover span{
+  color: white !important;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+.category-btn{
+  font-size: 14px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+
+  padding: 7px 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.tag-btn{
+  background-color: rgb(39 39 39);
+  color: white;
+  padding: 0 14px;
+  border-radius: 8px;
+  border: none;
+  margin: 0 12px 12px 0;
+  height: 32px;
+  min-width: 12px;
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sign-btn{
+  display: flex;
+  background-color: hsl(0deg 0% 7%);
+  color: #3ea6ff;
+  border: 1px solid hsl(0deg 0% 25%);
+  padding: 0 15px;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 36px;
+  border-radius: 18px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.css-kwg12j-MuiCardMedia-root{
+  margin-right: 8px;
+    height: 94px;
+    width: 168px;
+}
+
+@media screen and (max-width: 900px) {
+  .category-btn{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .copyright{
+    display:none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+  .search-bar{
+    width:200px;
+  }
+}
